@@ -1,0 +1,429 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belal Omar | Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="particles"></canvas>
+    <div class="grid-background"></div>
+
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">BELAL</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-btn" id="themeBtn">🌙</button>
+                <button class="lang-btn" id="langBtn">AR</button>
+                <button class="menu-btn" id="menuBtn">☰</button>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="profile-avatar">
+                <div class="avatar-glow"></div>
+                <img src="images/انا ب البدلة.PNG" alt="Belal Omar">
+            </div>
+
+            <div class="hero-content">
+
+                <p class="hello">Hello, I'm</p>
+
+                <h1>Belal Omar</h1>
+
+                <h2>
+                    I'm a <span id="typing"></span>
+                </h2>
+
+                <p class="description">
+    I create games, websites, and AI experiences
+    that turn ideas into interactive digital products.
+</p>
+
+<div class="hero-stats">
+    <div>
+        <strong>3+</strong>
+        <span>Projects</span>
+    </div>
+
+    <div>
+        <strong>3</strong>
+        <span>Fields</span>
+    </div>
+
+    <div>
+        <strong>∞</strong>
+        <span>Ideas</span>
+    </div>
+</div>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn">
+                        View Projects
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+
+                </div>
+
+                <div class="hero-socials">
+
+                    <a href="#" aria-label="GitHub">GH</a>
+                    <a href="#" aria-label="YouTube">YT</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Discord">DS</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="about reveal" id="about">
+
+            <div class="section-title">
+                <p>Get To Know Me</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <h3>I'm Belal Omar 👋</h3>
+
+                    <p>
+                        I'm a passionate developer interested in
+                        game development, artificial intelligence,
+                        and modern web development.
+                    </p>
+
+                    <p>
+                        I enjoy turning ideas into interactive
+                        digital experiences and learning new
+                        technologies.
+                    </p>
+
+                </div>
+
+                <div class="about-cards">
+
+                    <div class="about-card">
+                        <span>🎮</span>
+                        <h3>Game Development</h3>
+                        <p>
+                            Creating interactive games and
+                            experimenting with gameplay mechanics.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <span>🤖</span>
+                        <h3>AI Development</h3>
+                        <p>
+                            Exploring artificial intelligence
+                            and building smart applications.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <span>🌐</span>
+                        <h3>Web Development</h3>
+                        <p>
+                            Building modern and responsive
+                            websites with clean interfaces.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="skills reveal" id="skills">
+
+            <div class="section-title">
+                <p>What I Know</p>
+                <h2>My Skills</h2>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <span>💻</span>
+                    <h3>Programming</h3>
+
+                    <div class="skill-list">
+                        <p>Python</p>
+                        <p>JavaScript</p>
+                        <p>C#</p>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <span>🎮</span>
+                    <h3>Game Development</h3>
+
+                    <div class="skill-list">
+                        <p>Unity</p>
+                        <p>Game Mechanics</p>
+                        <p>Gameplay Programming</p>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <span>🌐</span>
+                    <h3>Web Development</h3>
+
+                    <div class="skill-list">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <span>🤖</span>
+                    <h3>AI</h3>
+
+                    <div class="skill-list">
+                        <p>AI Concepts</p>
+                        <p>Chatbots</p>
+                        <p>AI Projects</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="projects reveal" id="projects">
+
+            <div class="section-title">
+                <p>My Work</p>
+                <h2>Featured Projects</h2>
+            </div>
+
+            <div class="projects-container">
+
+                <div class="project-card">
+
+                    <div class="project-image">
+                        <span>🌙</span>
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>Muslimna</h3>
+
+                        <p>
+                            An Islamic digital experience with
+                            useful content and interactive features.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a
+    class="project-btn"
+    href="https://muslimna.lovable.app"
+    target="_blank">
+    View Project
+</a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-image">
+                        <span>🛒</span>
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>VEXO</h3>
+
+                        <p>
+                            A modern e-commerce project with
+                            products, offers and a clean interface.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a
+            class="project-btn"
+            href="https://vexoo-store.myeasyorders.com/"
+            target="_blank">
+            View Project
+        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+
+    <div class="project-image">
+        <span>✅</span>
+    </div>
+
+    <div class="project-info">
+
+        <h3>ToDoTask</h3>
+
+        <p>
+            A simple and modern task management application
+            for organizing daily tasks.
+        </p>
+
+        <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+
+        <a
+            class="project-btn"
+            href="https://ahlan-my-tasks.lovable.app"
+            target="_blank">
+            View Project
+        </a>
+
+    </div>
+
+</div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="contact reveal" id="contact">
+
+            <div class="section-title">
+                <p>Get In Touch</p>
+                <h2>Let's Build Something</h2>
+            </div>
+
+            <div class="contact-content">
+
+                <div class="contact-text">
+
+                    <h3>Have an idea? 🚀</h3>
+
+                    <p>
+                        Whether it's a website, game, or AI project,
+                        I'd love to turn your idea into something real.
+                    </p>
+
+                </div>
+
+                <form class="contact-form">
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        required>
+
+                    <input
+                        type="email"
+                        placeholder="Your Email"
+                        required>
+
+                    <textarea
+                        placeholder="Your Message"
+                        rows="6"
+                        required></textarea>
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <div class="modal" id="projectModal">
+
+        <div class="modal-content">
+
+            <button
+                class="close-modal"
+                onclick="closeProject()">
+                ✕
+            </button>
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalDescription"></p>
+
+            <div id="modalTech"></div>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        <h2>BELAL</h2>
+
+        <p>
+            Game Developer • AI Developer • Web Developer
+        </p>
+
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">YouTube</a>
+            <a href="#">Instagram</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Belal Omar. All rights reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
